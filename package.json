@@ -25,7 +25,7 @@
 		"knex": "^0.21.10",
 		"morgan": "^1.9.1",
 		"pg": "^8.4.2",
-		"postgrator-cli": "^3.2.0",
+		"postgrator-cli": "^4.0.0",
 		"uuid": "^8.3.1",
 		"valid-url": "^1.0.9",
 		"winston": "^3.3.3",
