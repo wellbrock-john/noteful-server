@@ -33,7 +33,6 @@ notesRouter
 		}
 
 		const { name, modified, folder_id, content } = req.body;
-		console.log(req.body);
 		const newNote = { name, modified, folder_id, content };
 
 		NotesService.insertNote(req.app.get("db"), newNote)
