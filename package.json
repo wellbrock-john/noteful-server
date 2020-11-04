@@ -2,15 +2,17 @@
 	"name": "noteful-server",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"main": "src/server.js",
 	"scripts": {
 		"test": "mocha --require test/setup.js",
 		"dev": "nodemon src/server.js",
 		"migrate": "postgrator --config postgrator-config.js",
 		"migrate:test": "env NODE_ENV=test npm run migrate",
+		"migrate:production": "heroku run npm run migrate",
 		"start": "node src/server.js",
 		"predeploy": "npm audit",
-		"deploy": "git push heroku master"
+		"deploy": "git push heroku master",
+		"postdeploy": "npm run migrate:production"
 	},
 	"keywords": [],
 	"author": "",
@@ -23,6 +25,9 @@
 		"knex": "^0.21.10",
 		"morgan": "^1.9.1",
 		"pg": "^8.4.2",
+		"uuid": "^8.3.1",
+		"valid-url": "^1.0.9",
+		"winston": "^3.3.3",
 		"xss": "^1.0.8"
 	},
 	"devDependencies": {

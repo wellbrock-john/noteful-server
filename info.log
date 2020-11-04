@@ -1,0 +1,43 @@
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/notes/id","level":"error"}
+{"message":"select * from \"notes\" where \"id\" = $1 limit $2 - invalid input syntax for type uuid: \"id\"","level":"error"}
+{"message":"Unauthorized request to path: /api","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /folders","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"modified is required","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"folder_id is required","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"content is required","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"insert into \"notes\" (\"content\", \"folder_id\", \"modified\", \"name\") values ($1, $2, $3, $4) returning * - invalid input syntax for type uuid: \"1\"","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Note with id 5433b878-9ef2-4e09-987a-c8d5bc659a13 created.","level":"info"}
+{"message":"Unauthorized request to path: /api/notes/5433b878-9ef2-4e09-987a-c8d5bc659a13","level":"error"}
+{"message":"Unauthorized request to path: /api/notes/5433b878-9ef2-4e09-987a-c8d5bc659a13","level":"error"}
+{"message":"Note with id 5433b878-9ef2-4e09-987a-c8d5bc659a13 deleted.","level":"info"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"folder_id is required","level":"error"}
+{"message":"folder_id is required","level":"error"}
+{"message":"folder_id is required","level":"error"}
+{"message":"folder_id is required","level":"error"}
+{"message":"folder_id is required","level":"error"}
+{"message":"folder_id is required","level":"error"}
+{"message":"folder_id is required","level":"error"}
+{"message":"folder_id is required","level":"error"}
+{"message":"folder_id is required","level":"error"}
+{"message":"Note with id aab8e580-f65d-4d45-be4f-8eeb759fed38 created.","level":"info"}
+{"message":"Note with id c40e02bc-1ea1-4790-981a-0fccfeeb1775 created.","level":"info"}
+{"message":"Note with id aab8e580-f65d-4d45-be4f-8eeb759fed38 deleted.","level":"info"}
+{"message":"Note with id e2b5f8af-4dc1-4ae4-9e1b-1a4e6773e1ad created.","level":"info"}
+{"message":"Note with id c40e02bc-1ea1-4790-981a-0fccfeeb1775 deleted.","level":"info"}
+{"message":"Note with id e2b5f8af-4dc1-4ae4-9e1b-1a4e6773e1ad deleted.","level":"info"}
