@@ -18,7 +18,7 @@ app.use(
 );
 app.use(cors());
 app.use(helmet());
-// app.use(validateBearerToken);
+app.use(validateBearerToken);
 
 app.use("/api/folders", foldersRouter);
 app.use("/api/notes", notesRouter);

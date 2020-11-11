@@ -48,3 +48,5 @@
 {"message":"Note with id 4ec0fe34-1c73-4804-a73d-4751f6fb2c71 created.","level":"info"}
 {"message":"Note with id 21222231-13af-4c6d-85c4-272d81dc24f9 deleted.","level":"info"}
 {"message":"Note with id a0dbb853-3463-4645-9998-d4ffc326fe95 created.","level":"info"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
